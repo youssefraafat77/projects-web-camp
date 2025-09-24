@@ -1,0 +1,107 @@
+*
+{
+    text-align: center;
+    background-color: rgb(16, 16, 16);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+font-size: 35px;
+color: red;
+}
+
+a
+{
+    font-size: larger;
+    margin: 5px 10px 10px;
+    color: white;
+    text-decoration: solid;
+    margin-bottom: 50px;
+}
+
+.main
+{
+    background-image: url("image/action-athlete-barbell-841130-1500x1000.jpg");
+    width:auto;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+}
+
+.main h2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.programs
+{
+    padding: 40px 20px;
+}
+
+h3
+{
+    color: red;
+}
+.all
+{
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.boxes
+{
+
+    background: #222;           
+    color: white;
+    padding: 20px;
+    width: 250px;               
+    border-radius: 10px;        
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); 
+    margin: 10px;
+    h3
+    {
+        color: red;
+        background-color: #222;
+    }
+    p
+    {
+        background-color: #222;
+    }
+}
+
+.Contact
+{
+    h4{
+        color: red;
+    }
+    p{
+        color: white;
+    }
+    margin-bottom: 70px;
+}
+
+footer{
+    height: 50px;
+    text-align: center;
+    background-color:#222;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    p{
+        background-color: #222;
+    }
+}
+
